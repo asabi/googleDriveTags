@@ -1,0 +1,11 @@
+
+[configuration]
+
+# download from https://github.com/prasmussen/gdrive
+gdriveFullPath = /usr/local/bin/gdrive
+
+# GoogleDrive folder to account mapping
+
+# the default account file is at ~/.gdrive
+driveMapping["/location/of/google/drive/files/for/account/A"] = "/location/of/gdrive/file/for/account/a/.gdrive"
+driveMapping["/location/of/google/drive/files/for/account/B"] = "/location/of/gdrive/file/for/account/b/.gdrive-accountB"
